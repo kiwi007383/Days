@@ -28,6 +28,9 @@ switch(new Date().getDay()){
     case 6:
         day = 'Saturday';
         break;
+
+    default:
+        text = 'Looking forward to the weekend!'
     }
 
 document.getElementById("day").innerHTML = 'Today is ' + day;
